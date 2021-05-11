@@ -6,14 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Counter</title>
-    <style></style>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        /* margin: 30px; */
+        font-size: medium;
+        background: rgb(0, 0, 0);
+        border: 1px solid black;
+        color: white;
+        text-align: center;
+        outline-offset: 15px;
+        height: 30px;
+      }
+
+      .box {
+        border: 5px solid rebeccapurple;
+        background-color: lightgray;
+        padding: 40px;
+        margin: 40px;
+        width: 300px;
+        height: 150px;
+      }
+
+      .alternate1 {
+        box-sizing: border-box;
+      }
+
+      .alternate2 {
+        box-sizing: border-box;
+      }
+    </style>
   </head>
   <body>
     <!-- Commit your code to GitHub each step you complete -->
 
     <!-- #1 Header w/ writing inside that covers the entire length of the page -->
+    <header>
+      <h1>My Counter App</h1>
+    </header>
 
     <!-- #2 Large number inside div -->
+
+    <div class="box">0</div>
+    <div class="box alternate1">+</div>
+    <div class="box alternate2">-</div>
 
     <!-- #3 Minus button and Plus button on the same line -->
   </body>
